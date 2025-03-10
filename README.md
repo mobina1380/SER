@@ -20,10 +20,7 @@ We evaluate our model on the **ShEMO (Sharif Speech Emotion) dataset**, a well-e
 
 ### 🔹 Feature Selection
 - **Modified Differential Evolution (MDE)** optimizes feature selection, reducing dimensionality while improving classification accuracy.
-
 ![](assets/Architecture.png)
-
-
 ### 🔹 Classification Model
 - **CNN-1D** for acoustic feature extraction.
 - **CNN-2D** for textual feature processing.
@@ -45,19 +42,10 @@ We evaluate our model on the **ShEMO (Sharif Speech Emotion) dataset**, a well-e
 - Hugging Face Transformers
 - Whisper ASR
 
-## 📜 Citation
-If you use this project, please cite our paper:
-```
-@article{your_paper,
-  author    = {Your Name et al.},
-  title     = {Multimodal Speech Emotion Recognition with Evolutionary Optimization},
-  journal   = {Your Conference/Journal},
-  year      = {2024}
-}
-```
+
 
 ## 📬 Contact
-For questions or collaborations, reach out via [your email] or open an issue on GitHub!
+For questions or collaborations, reach out via esmaeilimobina98@gmail.com or open an issue on GitHub!
 
 ---
 🎯 **Keywords:** Speech Processing, Emotion Recognition, Differential Evolution, Multimodal Learning

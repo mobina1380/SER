@@ -13,24 +13,6 @@ Understanding emotions in speech is crucial for natural human-computer interacti
 ## 📌 Dataset
 We evaluate our model on the **ShEMO (Sharif Speech Emotion) dataset**, a well-established Persian speech emotion corpus.
 
-## 🚀 Installation & Usage
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/Persian-SER.git
-cd Persian-SER
-```
-
-### 2️⃣ Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3️⃣ Run the Model
-```bash
-python main.py --mode train  # Train the model
-python main.py --mode test   # Test the model
-```
-
 ## 📊 Model Architecture
 ### 🔹 Feature Extraction
 - **Acoustic Features:** MFCCs, spectral descriptors, and LLDs
@@ -38,6 +20,9 @@ python main.py --mode test   # Test the model
 
 ### 🔹 Feature Selection
 - **Modified Differential Evolution (MDE)** optimizes feature selection, reducing dimensionality while improving classification accuracy.
+
+![](assets/Architecture.png)
+
 
 ### 🔹 Classification Model
 - **CNN-1D** for acoustic feature extraction.

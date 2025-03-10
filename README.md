@@ -30,6 +30,8 @@ We evaluate our model on the **ShEMO (Sharif Speech Emotion) dataset**, a well-e
 - **Self-Attention Mechanism** to enhance multimodal fusion.
 - **Final Emotion Classification** via a deep learning-based model.
 
+![](assets/Multimodal.png)
+
 ## 📈 Results
 | Model | Accuracy |
 |--------|---------|
